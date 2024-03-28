@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .image-container {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    filter: sepia(70%);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    filter: none;
+  }
+  
+  p.copyright {
+    font-size: 12px;
+    color: #666;
+  }
+  
