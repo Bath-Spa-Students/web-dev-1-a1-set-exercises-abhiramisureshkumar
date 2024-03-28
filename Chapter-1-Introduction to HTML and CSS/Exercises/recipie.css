@@ -1,0 +1,80 @@
+/* Global style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #343a40; /* Dark gray for body text */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    color: #4a4e69; /* Dark blue-gray for header */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+/* Description style */
+p {
+    color: #6b7089; /* Gray for description */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Ingredients list styles */
+h2 {
+    color: #007bff; /* Blue for ingredients header */
+    text-align: center;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+li {
+    color: #4a4e69; /* Dark blue-gray for ingredients */
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Cooking method styles */
+h3 {
+    color: #dc3545; /* Red for cooking method header */
+    text-align: center;
+    font-size: 24px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Hover effect for list items */
+li:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Image style */
+.recipe-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
